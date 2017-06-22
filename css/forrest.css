@@ -1,6 +1,8 @@
 body{
     background-image: url('../img/Hitman_Reborn.jpg');
-    color: #fff;
+    color: red;
+    background-size: 500px 400px;
+    font-weight:bold;
 }
 
 .me {
@@ -8,8 +10,8 @@ body{
     zoom: 0.5;
 }
 
-.reborn {
-    zoom: 0.5;
+.chrono {
+
 }
 
 .marquee {
@@ -31,7 +33,7 @@ body{
 }
 
 .flash {
-   animation-name: flash;
+    animation-name: flash;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -40,7 +42,7 @@ body{
 }
 
 @keyframes flash {
-    from {color: #7FFF00;}
+    from {color: orange;}
     to {color: #fff;}
 }
 
