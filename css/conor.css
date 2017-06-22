@@ -1,0 +1,89 @@
+body{
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-family: Times;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+.name{
+  margin-bottom: 20px;
+}
+
+.info{
+  opacity: 0.7;
+  font-size: 24px;
+}
+
+.sidebar{
+  width: calc(33.33% - 40px);
+  position: fixed;
+  left: 40px;
+  top: 60px;
+  font-size: 36px;
+}
+
+.diary{
+  padding: 60px 0;
+  width: calc(66.66% - 60px);
+  margin-left: calc(33.33% + 20px);
+}
+
+.diary img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.diary-header{
+  font-size: 24px;
+  letter-spacing: 1.1em;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+footer{
+  background-color: black;
+  color: rgba(0, 0, 0, 0)
+  padding: 40px;
+  font-size: 40px;
+  height: 200px;
+  position: relative;
+  z-index: 2000;
+  line-height: 200px;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.frame{
+  width: 100vw;
+  height: 100vh;
+  border: 20px double black;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.appendix-title{
+  font-size: 18px;
+  margin: 48px 0 16px 0;
+}
+
+.appendix{
+  font-size: 16px;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.appendix li{
+  cursor: pointer;
+  transition: opacity .125s ease-in-out;
+}
+
+.appendix li:hover{
+  opacity: 0.5;
+}
