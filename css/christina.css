@@ -5,11 +5,11 @@ body{
 
 .sister {
     border-radius: 90%;
-    zoom: 0.5;
+    height: 100%;
 }
 
 .zelda {
-    zoom: 0.5;
+    width: 100%;
 }
 
 .marquee {
