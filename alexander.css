@@ -7,6 +7,8 @@ p{
 	text-indent: 40px;
 }
 
+#top{}
+
 nav{
 	border-bottom: 3px solid white;
 	background-color: #636e72;
@@ -27,10 +29,6 @@ nav ul{
 	padding-right: 25px;
 	justify-content: space-between;
 }
-
-/*nav ul:hover{
-	background-color: #0984e3;
-}*/
 
 nav a{
 	color: white;
@@ -65,6 +63,7 @@ iframe{
 
 .box h3{
 	margin-top: 0px;
+	text-align: center;
 }
 
 #about{
@@ -87,8 +86,8 @@ iframe{
 }
 
 .pic img{
-	width: 100%;
-	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .pic p{
