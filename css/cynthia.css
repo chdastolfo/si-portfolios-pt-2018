@@ -6,32 +6,24 @@
   }
 
   h1{
-    text-align: center
+    text-align: center;
 
   }
 
   h2{
-    text-align: center
+    text-align: center;
   }
 
   p{
-    text-align: center
+    text-align: center;
   }
 
   #container {
-
+    background-color: grey;
 
   }
 
   #title {
     background-color: : #eee;
-
-  }
-
-  #headshot {
-
-  }
-
-  #content{
 
   }
